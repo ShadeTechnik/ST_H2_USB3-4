@@ -1,0 +1,29 @@
+
+                      ******************************
+                      *****  HOLE LAYOUT LIST  *****
+                      ******************************
+
+                      File Name  :  ET-D720201-0014_hole.txt
+
+                      Date       :  Tue  Apr 12 2011
+
+         ===================================================================
+         |  CODE     |    Hole    |    Hole                   |    Hole    |
+         |  Number   |   Count    |  Diameter                 |    Type    |
+         +-----------+------------+---------------------------+------------+
+         |   ADD10C  |          8 |   2.3(0.091)              |    PTH     |
+         |   ADD11C  |          4 |   1.5(0.059)              |    PTH     |
+         |   ADD12C  |          9 |   1.2(0.047)              |    PTH     |
+         |   ADD13C  |          8 |   0.9(0.035)              |    PTH     |
+         |   ADD14C  |         10 |   0.8(0.031)              |    PTH     |
+         |   ADD15C  |         36 |   0.7(0.028)              |    PTH     |
+         |   ADD16C  |        995 |   0.4(0.016)              |    PTH     |
+         |   ADD17C  |         12 |   0.3(0.012)              |    PTH     |
+         |   ADD18C  |          2 |   4.0(0.157)              |    NPTH    |
+         |   ADD19C  |          2 |   3.2(0.126)              |    NPTH    |
+         |   ADD20C  |          2 |   2.55(0.100)             |    NPTH    |
+         |   ADD21C  |         15 |   0.5(0.020)              |    NPTH    |
+         ===================================================================
+　　　　　
+         All Linear dimensions are in millimeters(inches).
+         All hole diameters are diameters of a result.

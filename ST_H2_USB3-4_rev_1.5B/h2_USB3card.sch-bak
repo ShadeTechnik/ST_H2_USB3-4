@@ -1,0 +1,744 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 11
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Wire Wire Line
+	8750 1800 8750 1700
+$Comp
+L power:+3.3V #PWR03
+U 1 1 612B7995
+P 8750 1700
+F 0 "#PWR03" H 8750 1550 50  0001 C CNN
+F 1 "+3.3V" H 8765 1873 50  0000 C CNN
+F 2 "" H 8750 1700 50  0001 C CNN
+F 3 "" H 8750 1700 50  0001 C CNN
+	1    8750 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR01
+U 1 1 612B7DBE
+P 4950 5500
+F 0 "#PWR01" H 4950 5250 50  0001 C CNN
+F 1 "GND" H 4955 5327 50  0000 C CNN
+F 2 "" H 4950 5500 50  0001 C CNN
+F 3 "" H 4950 5500 50  0001 C CNN
+	1    4950 5500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7800 1800 8750 1800
+Wire Wire Line
+	7800 1900 8750 1900
+Wire Wire Line
+	8750 1900 8750 1800
+Connection ~ 8750 1800
+Wire Wire Line
+	8750 1900 8750 2300
+Wire Wire Line
+	8750 5150 7800 5150
+Connection ~ 8750 1900
+Wire Wire Line
+	7800 5050 8750 5050
+Connection ~ 8750 5050
+Wire Wire Line
+	8750 5050 8750 5150
+Wire Wire Line
+	7800 4950 8750 4950
+Connection ~ 8750 4950
+Wire Wire Line
+	8750 4950 8750 5050
+Wire Wire Line
+	7800 2600 8750 2600
+Connection ~ 8750 2600
+Wire Wire Line
+	8750 2600 8750 4950
+Wire Wire Line
+	7800 2500 8750 2500
+Connection ~ 8750 2500
+Wire Wire Line
+	8750 2500 8750 2600
+Wire Wire Line
+	7800 2400 8750 2400
+Connection ~ 8750 2400
+Wire Wire Line
+	8750 2400 8750 2500
+Wire Wire Line
+	7800 2300 8750 2300
+Connection ~ 8750 2300
+Wire Wire Line
+	8750 2300 8750 2400
+Text GLabel 8300 4200 2    50   Output ~ 0
+PERST
+NoConn ~ 7800 4300
+$Sheet
+S 950  750  1100 1250
+U 61705BED
+F0 "Power" 50
+F1 "Power.sch" 50
+$EndSheet
+$Comp
+L power:+3.3V #PWR?
+U 1 1 61E31242
+P 8100 3900
+AR Path="/6123CAEB/61E31242" Ref="#PWR?"  Part="1" 
+AR Path="/61E31242" Ref="#PWR02"  Part="1" 
+F 0 "#PWR02" H 8100 3750 50  0001 C CNN
+F 1 "+3.3V" H 8100 4050 50  0000 C CNN
+F 2 "" H 8100 3900 50  0001 C CNN
+F 3 "" H 8100 3900 50  0001 C CNN
+	1    8100 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 61E3123C
+P 8100 4000
+AR Path="/6123CAEB/61E3123C" Ref="R?"  Part="1" 
+AR Path="/61E3123C" Ref="R1"  Part="1" 
+F 0 "R1" H 8200 3950 50  0000 C CNN
+F 1 "4.7K" H 8000 4100 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 8100 4000 50  0001 C CNN
+F 3 "~" H 8100 4000 50  0001 C CNN
+	1    8100 4000
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	7800 4200 8100 4200
+Wire Wire Line
+	8100 4100 8100 4200
+Connection ~ 8100 4200
+Wire Wire Line
+	8100 4200 8300 4200
+$Sheet
+S 2950 750  1100 1250
+U 621FC8C7
+F0 "Clock_buffer" 50
+F1 "Clock_buffer.sch" 50
+F2 "PCIE_REFCLK+" I L 2950 1850 50 
+F3 "PCIE_REFCLK-" I L 2950 1750 50 
+F4 "C3_CLK+" O R 4050 1250 50 
+F5 "C3_CLK-" O R 4050 1150 50 
+F6 "C1_CLK+" O R 4050 1850 50 
+F7 "C1_CLK-" O R 4050 1750 50 
+F8 "C2_CLK+" O R 4050 1550 50 
+F9 "C2_CLK-" O R 4050 1450 50 
+F10 "C4_CLK-" O R 4050 850 50 
+F11 "C4_CLK+" O R 4050 950 50 
+$EndSheet
+$Comp
+L ST_Extra:M.2_Mkey J1
+U 1 1 613EFCA5
+P 6900 3500
+F 0 "J1" H 6900 5425 50  0000 C CNN
+F 1 "M.2_Mkey" H 6900 5334 50  0000 C CNN
+F 2 "m2ngff:m2-padKeyM" H 6500 4300 50  0001 C CNN
+F 3 "" H 6500 4300 50  0001 C CNN
+	1    6900 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H3
+U 1 1 61400952
+P 9600 2450
+F 0 "H3" V 9554 2600 50  0000 L CNN
+F 1 "MountingHole_Pad" V 9645 2600 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad" H 9600 2450 50  0001 C CNN
+F 3 "~" H 9600 2450 50  0001 C CNN
+	1    9600 2450
+	0    1    1    0   
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H4
+U 1 1 61400B6B
+P 9600 2800
+F 0 "H4" V 9554 2950 50  0000 L CNN
+F 1 "MountingHole_Pad" V 9645 2950 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad" H 9600 2800 50  0001 C CNN
+F 3 "~" H 9600 2800 50  0001 C CNN
+	1    9600 2800
+	0    1    1    0   
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H5
+U 1 1 61400EC2
+P 9600 3100
+F 0 "H5" V 9554 3250 50  0000 L CNN
+F 1 "MountingHole_Pad" V 9645 3250 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad" H 9600 3100 50  0001 C CNN
+F 3 "~" H 9600 3100 50  0001 C CNN
+	1    9600 3100
+	0    1    1    0   
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H6
+U 1 1 61401258
+P 9600 3400
+F 0 "H6" V 9554 3550 50  0000 L CNN
+F 1 "MountingHole_Pad" V 9645 3550 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad" H 9600 3400 50  0001 C CNN
+F 3 "~" H 9600 3400 50  0001 C CNN
+	1    9600 3400
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	9500 2450 9500 2800
+Connection ~ 9500 2800
+Wire Wire Line
+	9500 2800 9500 3100
+Connection ~ 9500 3100
+Wire Wire Line
+	9500 3100 9500 3400
+Connection ~ 9500 3400
+Wire Wire Line
+	9500 3400 9500 3650
+$Comp
+L power:GND #PWR04
+U 1 1 61403067
+P 9500 3650
+F 0 "#PWR04" H 9500 3400 50  0001 C CNN
+F 1 "GND" H 9505 3477 50  0000 C CNN
+F 2 "" H 9500 3650 50  0001 C CNN
+F 3 "" H 9500 3650 50  0001 C CNN
+	1    9500 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H2
+U 1 1 61416ED6
+P 9600 2150
+F 0 "H2" V 9554 2300 50  0000 L CNN
+F 1 "MountingHole_Pad" V 9645 2300 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad" H 9600 2150 50  0001 C CNN
+F 3 "~" H 9600 2150 50  0001 C CNN
+	1    9600 2150
+	0    1    1    0   
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H1
+U 1 1 614180DA
+P 9600 1850
+F 0 "H1" V 9554 2000 50  0000 L CNN
+F 1 "MountingHole_Pad" V 9645 2000 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad" H 9600 1850 50  0001 C CNN
+F 3 "~" H 9600 1850 50  0001 C CNN
+	1    9600 1850
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	9500 2450 9500 2150
+Connection ~ 9500 2450
+Connection ~ 9500 2150
+Wire Wire Line
+	9500 2150 9500 1850
+$Sheet
+S 2650 5050 1450 1200
+U 620BD09B
+F0 "USB3_controller_3" 50
+F1 "USB3_controller.sch" 50
+F2 "PCIE_RX+" I R 4100 5250 50 
+F3 "PCIE_RX-" I R 4100 5150 50 
+F4 "PCIE_TX+" O R 4100 5550 50 
+F5 "PCIE_TX-" O R 4100 5450 50 
+F6 "USB_P1_D+" B L 2650 5150 50 
+F7 "USB_P1_D-" B L 2650 5250 50 
+F8 "USB_P1_SSTX+" O L 2650 5550 50 
+F9 "USB_P1_SSTX-" O L 2650 5650 50 
+F10 "USB_P1_SSRX+" I L 2650 5350 50 
+F11 "USB_P1_SSRX-" I L 2650 5450 50 
+F12 "PWRON#_P1" O L 2650 5800 50 
+F13 "OVERRCUR#_P1" I L 2650 5900 50 
+F14 "TUSB7320_REFCLK+" I L 2650 6150 50 
+F15 "TUSB7320_REFCLK-" I L 2650 6050 50 
+$EndSheet
+$Sheet
+S 1200 5100 550  1000
+U 61BF3653
+F0 "USB3_Port_3" 50
+F1 "USB3_Port.sch" 50
+F2 "TVS_SSRX-" I R 1750 5450 50 
+F3 "TVS_SSRX+" I R 1750 5350 50 
+F4 "TVS_D-" B R 1750 5250 50 
+F5 "TVS_SSTX-" O R 1750 5650 50 
+F6 "TVS_SSTX+" O R 1750 5550 50 
+F7 "OVERCUR#" O R 1750 5900 50 
+F8 "PWRON#" I R 1750 5800 50 
+F9 "TVS_D+" B R 1750 5150 50 
+$EndSheet
+NoConn ~ 7800 3600
+NoConn ~ 7800 4500
+NoConn ~ 7800 4600
+NoConn ~ 7800 4850
+Text Label 5750 2600 0    50   ~ 0
+PER_2-
+Text Label 5750 2700 0    50   ~ 0
+PER_2+
+Wire Wire Line
+	6000 2700 5750 2700
+Wire Wire Line
+	5750 2600 6000 2600
+Text Label 4450 5450 2    50   ~ 0
+PER_2-
+Text Label 4450 5550 2    50   ~ 0
+PER_2+
+Wire Wire Line
+	4450 5450 4100 5450
+Wire Wire Line
+	4450 5550 4100 5550
+Text Label 5750 2900 0    50   ~ 0
+PET_2-
+Text Label 5750 3000 0    50   ~ 0
+PET_2+
+Wire Wire Line
+	5750 2900 6000 2900
+Wire Wire Line
+	5750 3000 6000 3000
+Text Label 5750 2300 0    50   ~ 0
+PET_3-
+Text Label 5750 2400 0    50   ~ 0
+PET_3+
+Wire Wire Line
+	6000 2400 5750 2400
+Wire Wire Line
+	5750 2300 6000 2300
+Text Label 5750 2000 0    50   ~ 0
+PER_3-
+Text Label 5750 2100 0    50   ~ 0
+PER_3+
+Wire Wire Line
+	6000 2100 5750 2100
+Wire Wire Line
+	5750 2000 6000 2000
+Text Label 5750 3200 0    50   ~ 0
+PER_1-
+Text Label 5750 3300 0    50   ~ 0
+PER_1+
+Wire Wire Line
+	6000 3300 5750 3300
+Wire Wire Line
+	5750 3200 6000 3200
+Text Label 5750 3500 0    50   ~ 0
+PET_1-
+Text Label 5750 3600 0    50   ~ 0
+PET_1+
+Wire Wire Line
+	5750 3500 6000 3500
+Wire Wire Line
+	5750 3600 6000 3600
+Text Label 5750 4100 0    50   ~ 0
+PET_0-
+Text Label 5750 4200 0    50   ~ 0
+PET_0+
+Wire Wire Line
+	5750 4100 6000 4100
+Wire Wire Line
+	5750 4200 6000 4200
+Text Label 4450 5150 2    50   ~ 0
+PET_2-
+Text Label 4450 5250 2    50   ~ 0
+PET_2+
+Wire Wire Line
+	4450 5150 4100 5150
+Wire Wire Line
+	4450 5250 4100 5250
+Wire Wire Line
+	5750 3800 6000 3800
+Wire Wire Line
+	6000 3900 5750 3900
+Text Label 5750 3900 0    50   ~ 0
+PER_0+
+Text Label 5750 3800 0    50   ~ 0
+PER_0-
+Text Label 2300 1750 0    50   ~ 0
+PCIE_REFCLK-
+Text Label 2300 1850 0    50   ~ 0
+PCIE_REFCLK+
+Wire Wire Line
+	2950 1750 2300 1750
+Wire Wire Line
+	2950 1850 2300 1850
+Text Label 4450 1450 2    50   ~ 0
+C2_CLK-
+Text Label 4450 1550 2    50   ~ 0
+C2_CLK+
+Wire Wire Line
+	4450 1450 4050 1450
+Wire Wire Line
+	4450 1550 4050 1550
+Text Label 4450 1750 2    50   ~ 0
+C1_CLK-
+Text Label 4450 1850 2    50   ~ 0
+C1_CLK+
+Wire Wire Line
+	4450 1850 4050 1850
+Wire Wire Line
+	4450 1750 4050 1750
+Text Label 4450 950  2    50   ~ 0
+C4_CLK+
+Text Label 4450 850  2    50   ~ 0
+C4_CLK-
+Wire Wire Line
+	4450 850  4050 850 
+Wire Wire Line
+	4450 950  4050 950 
+Text Label 4450 1250 2    50   ~ 0
+C3_CLK+
+Text Label 4450 1150 2    50   ~ 0
+C3_CLK-
+Wire Wire Line
+	4450 1150 4050 1150
+Wire Wire Line
+	4450 1250 4050 1250
+Text Label 2250 6150 0    50   ~ 0
+C3_CLK+
+Text Label 2250 6050 0    50   ~ 0
+C3_CLK-
+Wire Wire Line
+	2650 6050 2250 6050
+Wire Wire Line
+	2650 6150 2250 6150
+Wire Wire Line
+	2650 5150 1750 5150
+Wire Wire Line
+	1750 5250 2650 5250
+Wire Wire Line
+	2650 5350 1750 5350
+Wire Wire Line
+	1750 5450 2650 5450
+Wire Wire Line
+	2650 5550 1750 5550
+Wire Wire Line
+	1750 5650 2650 5650
+Wire Wire Line
+	1750 5800 2650 5800
+Wire Wire Line
+	2650 5900 1750 5900
+$Sheet
+S 2650 6450 1450 1200
+U 619D1464
+F0 "USB3_controller_4" 50
+F1 "USB3_controller.sch" 50
+F2 "PCIE_RX+" I R 4100 6650 50 
+F3 "PCIE_RX-" I R 4100 6550 50 
+F4 "PCIE_TX+" O R 4100 6950 50 
+F5 "PCIE_TX-" O R 4100 6850 50 
+F6 "USB_P1_D+" B L 2650 6550 50 
+F7 "USB_P1_D-" B L 2650 6650 50 
+F8 "USB_P1_SSTX+" O L 2650 6950 50 
+F9 "USB_P1_SSTX-" O L 2650 7050 50 
+F10 "USB_P1_SSRX+" I L 2650 6750 50 
+F11 "USB_P1_SSRX-" I L 2650 6850 50 
+F12 "PWRON#_P1" O L 2650 7200 50 
+F13 "OVERRCUR#_P1" I L 2650 7300 50 
+F14 "TUSB7320_REFCLK+" I L 2650 7550 50 
+F15 "TUSB7320_REFCLK-" I L 2650 7450 50 
+$EndSheet
+$Sheet
+S 1200 6500 550  1000
+U 619D146E
+F0 "USB3_Port_4" 50
+F1 "USB3_Port.sch" 50
+F2 "TVS_SSRX-" I R 1750 6850 50 
+F3 "TVS_SSRX+" I R 1750 6750 50 
+F4 "TVS_D-" B R 1750 6650 50 
+F5 "TVS_SSTX-" O R 1750 7050 50 
+F6 "TVS_SSTX+" O R 1750 6950 50 
+F7 "OVERCUR#" O R 1750 7300 50 
+F8 "PWRON#" I R 1750 7200 50 
+F9 "TVS_D+" B R 1750 6550 50 
+$EndSheet
+Text Label 4450 6850 2    50   ~ 0
+PER_3-
+Text Label 4450 6950 2    50   ~ 0
+PER_3+
+Wire Wire Line
+	4450 6850 4100 6850
+Wire Wire Line
+	4450 6950 4100 6950
+Text Label 4450 6550 2    50   ~ 0
+PET_3-
+Text Label 4450 6650 2    50   ~ 0
+PET_3+
+Wire Wire Line
+	4450 6550 4100 6550
+Wire Wire Line
+	4450 6650 4100 6650
+Text Label 2250 7550 0    50   ~ 0
+C4_CLK+
+Text Label 2250 7450 0    50   ~ 0
+C4_CLK-
+Wire Wire Line
+	2650 7450 2250 7450
+Wire Wire Line
+	2650 7550 2250 7550
+Wire Wire Line
+	2650 6550 1750 6550
+Wire Wire Line
+	1750 6650 2650 6650
+Wire Wire Line
+	2650 6750 1750 6750
+Wire Wire Line
+	1750 6850 2650 6850
+Wire Wire Line
+	2650 6950 1750 6950
+Wire Wire Line
+	1750 7050 2650 7050
+Wire Wire Line
+	1750 7200 2650 7200
+Wire Wire Line
+	2650 7300 1750 7300
+$Sheet
+S 2650 2250 1450 1200
+U 619E6C18
+F0 "USB3_controller_1" 50
+F1 "USB3_controller.sch" 50
+F2 "PCIE_RX+" I R 4100 2450 50 
+F3 "PCIE_RX-" I R 4100 2350 50 
+F4 "PCIE_TX+" O R 4100 2750 50 
+F5 "PCIE_TX-" O R 4100 2650 50 
+F6 "USB_P1_D+" B L 2650 2350 50 
+F7 "USB_P1_D-" B L 2650 2450 50 
+F8 "USB_P1_SSTX+" O L 2650 2750 50 
+F9 "USB_P1_SSTX-" O L 2650 2850 50 
+F10 "USB_P1_SSRX+" I L 2650 2550 50 
+F11 "USB_P1_SSRX-" I L 2650 2650 50 
+F12 "PWRON#_P1" O L 2650 3000 50 
+F13 "OVERRCUR#_P1" I L 2650 3100 50 
+F14 "TUSB7320_REFCLK+" I L 2650 3350 50 
+F15 "TUSB7320_REFCLK-" I L 2650 3250 50 
+$EndSheet
+$Sheet
+S 1200 2300 550  1000
+U 619E6D54
+F0 "USB3_Port_1" 50
+F1 "USB3_Port.sch" 50
+F2 "TVS_SSRX-" I R 1750 2650 50 
+F3 "TVS_SSRX+" I R 1750 2550 50 
+F4 "TVS_D-" B R 1750 2450 50 
+F5 "TVS_SSTX-" O R 1750 2850 50 
+F6 "TVS_SSTX+" O R 1750 2750 50 
+F7 "OVERCUR#" O R 1750 3100 50 
+F8 "PWRON#" I R 1750 3000 50 
+F9 "TVS_D+" B R 1750 2350 50 
+$EndSheet
+Text Label 4450 2650 2    50   ~ 0
+PER_0-
+Text Label 4450 2750 2    50   ~ 0
+PER_0+
+Wire Wire Line
+	4450 2650 4100 2650
+Wire Wire Line
+	4450 2750 4100 2750
+Text Label 4450 2350 2    50   ~ 0
+PET_0-
+Text Label 4450 2450 2    50   ~ 0
+PET_0+
+Wire Wire Line
+	4450 2350 4100 2350
+Wire Wire Line
+	4450 2450 4100 2450
+Text Label 2250 3350 0    50   ~ 0
+C1_CLK+
+Text Label 2250 3250 0    50   ~ 0
+C1_CLK-
+Wire Wire Line
+	2650 3250 2250 3250
+Wire Wire Line
+	2650 3350 2250 3350
+Wire Wire Line
+	2650 2350 1750 2350
+Wire Wire Line
+	1750 2450 2650 2450
+Wire Wire Line
+	2650 2550 1750 2550
+Wire Wire Line
+	1750 2650 2650 2650
+Wire Wire Line
+	2650 2750 1750 2750
+Wire Wire Line
+	1750 2850 2650 2850
+Wire Wire Line
+	1750 3000 2650 3000
+Wire Wire Line
+	2650 3100 1750 3100
+$Sheet
+S 2650 3650 1450 1200
+U 619E6D78
+F0 "USB3_controller_2" 50
+F1 "USB3_controller.sch" 50
+F2 "PCIE_RX+" I R 4100 3850 50 
+F3 "PCIE_RX-" I R 4100 3750 50 
+F4 "PCIE_TX+" O R 4100 4150 50 
+F5 "PCIE_TX-" O R 4100 4050 50 
+F6 "USB_P1_D+" B L 2650 3750 50 
+F7 "USB_P1_D-" B L 2650 3850 50 
+F8 "USB_P1_SSTX+" O L 2650 4150 50 
+F9 "USB_P1_SSTX-" O L 2650 4250 50 
+F10 "USB_P1_SSRX+" I L 2650 3950 50 
+F11 "USB_P1_SSRX-" I L 2650 4050 50 
+F12 "PWRON#_P1" O L 2650 4400 50 
+F13 "OVERRCUR#_P1" I L 2650 4500 50 
+F14 "TUSB7320_REFCLK+" I L 2650 4750 50 
+F15 "TUSB7320_REFCLK-" I L 2650 4650 50 
+$EndSheet
+$Sheet
+S 1200 3700 550  1000
+U 619E6D82
+F0 "USB3_Port_2" 50
+F1 "USB3_Port.sch" 50
+F2 "TVS_SSRX-" I R 1750 4050 50 
+F3 "TVS_SSRX+" I R 1750 3950 50 
+F4 "TVS_D-" B R 1750 3850 50 
+F5 "TVS_SSTX-" O R 1750 4250 50 
+F6 "TVS_SSTX+" O R 1750 4150 50 
+F7 "OVERCUR#" O R 1750 4500 50 
+F8 "PWRON#" I R 1750 4400 50 
+F9 "TVS_D+" B R 1750 3750 50 
+$EndSheet
+Text Label 4450 4050 2    50   ~ 0
+PER_1-
+Text Label 4450 4150 2    50   ~ 0
+PER_1+
+Wire Wire Line
+	4450 4050 4100 4050
+Wire Wire Line
+	4450 4150 4100 4150
+Text Label 4450 3750 2    50   ~ 0
+PET_1-
+Text Label 4450 3850 2    50   ~ 0
+PET_1+
+Wire Wire Line
+	4450 3750 4100 3750
+Wire Wire Line
+	4450 3850 4100 3850
+Text Label 2250 4750 0    50   ~ 0
+C2_CLK+
+Text Label 2250 4650 0    50   ~ 0
+C2_CLK-
+Wire Wire Line
+	2650 4650 2250 4650
+Wire Wire Line
+	2650 4750 2250 4750
+Wire Wire Line
+	2650 3750 1750 3750
+Wire Wire Line
+	1750 3850 2650 3850
+Wire Wire Line
+	2650 3950 1750 3950
+Wire Wire Line
+	1750 4050 2650 4050
+Wire Wire Line
+	2650 4150 1750 4150
+Wire Wire Line
+	1750 4250 2650 4250
+Wire Wire Line
+	1750 4400 2650 4400
+Wire Wire Line
+	2650 4500 1750 4500
+Wire Wire Line
+	4950 1800 4950 1900
+Wire Wire Line
+	6000 1800 4950 1800
+Wire Wire Line
+	6000 1900 4950 1900
+Connection ~ 4950 1900
+Wire Wire Line
+	4950 1900 4950 2200
+Wire Wire Line
+	6000 2200 4950 2200
+Connection ~ 4950 2200
+Wire Wire Line
+	4950 2200 4950 2500
+Wire Wire Line
+	6000 2500 4950 2500
+Connection ~ 4950 2500
+Wire Wire Line
+	4950 2500 4950 2800
+Wire Wire Line
+	6000 2800 4950 2800
+Connection ~ 4950 2800
+Wire Wire Line
+	6000 3100 4950 3100
+Wire Wire Line
+	4950 2800 4950 3100
+Connection ~ 4950 3100
+Wire Wire Line
+	4950 3100 4950 3400
+Wire Wire Line
+	6000 3400 4950 3400
+Connection ~ 4950 3400
+Wire Wire Line
+	4950 3400 4950 3700
+Wire Wire Line
+	6000 3700 4950 3700
+Connection ~ 4950 3700
+Wire Wire Line
+	6000 4000 4950 4000
+Wire Wire Line
+	4950 3700 4950 4000
+Connection ~ 4950 4000
+Wire Wire Line
+	4950 4000 4950 4300
+Wire Wire Line
+	6000 4300 4950 4300
+Connection ~ 4950 4300
+Wire Wire Line
+	6000 4600 4950 4600
+Connection ~ 4950 4600
+Wire Wire Line
+	4950 4600 4950 4950
+Wire Wire Line
+	6000 4950 4950 4950
+Connection ~ 4950 4950
+Wire Wire Line
+	4950 4950 4950 5050
+Wire Wire Line
+	6000 5050 4950 5050
+Connection ~ 4950 5050
+Wire Wire Line
+	4950 5050 4950 5150
+Wire Wire Line
+	6000 5150 4950 5150
+Connection ~ 4950 5150
+Wire Wire Line
+	4950 5150 4950 5250
+Wire Wire Line
+	6000 5250 4950 5250
+Connection ~ 4950 5250
+Wire Wire Line
+	4950 5250 4950 5500
+Wire Wire Line
+	4950 4300 4950 4600
+Text Label 5450 4400 0    50   ~ 0
+PCIE_REFCLK-
+Text Label 5450 4500 0    50   ~ 0
+PCIE_REFCLK+
+Wire Wire Line
+	5450 4400 6000 4400
+Wire Wire Line
+	6000 4500 5450 4500
+$Comp
+L ST:ShadeLogo G1
+U 1 1 620502D5
+P 9950 4850
+F 0 "G1" H 9950 5065 50  0000 C CNN
+F 1 "ShadeLogo" H 9950 4974 50  0000 C CNN
+F 2 "ST:Shade Logo small" H 9950 5050 50  0001 C CNN
+F 3 "" H 9950 5050 50  0001 C CNN
+	1    9950 4850
+	1    0    0    -1  
+$EndComp
+NoConn ~ 7800 4400
+NoConn ~ 7800 2200
+$EndSCHEMATC

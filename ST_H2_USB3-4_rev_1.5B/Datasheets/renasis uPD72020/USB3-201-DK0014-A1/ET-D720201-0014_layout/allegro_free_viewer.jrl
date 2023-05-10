@@ -1,0 +1,100 @@
+\t (03:46:03) allegro_free_viewer 16.5 S006 (v16-5-13S) i86
+\t (03:46:03)     Journal start - Wed May 09 14:45:50 2012
+\t (03:46:03)         Host=DHMPC045 User=j-yamaya Pid=2424 CPUs=2
+\t (03:46:03) 
+\d (03:46:03) Database opened: D:/ÅûPROJECTÅû/USB3.0/ÅyuPD720201_202Åz/ReferenceBoard/720201_Add-in/USB3-201-DK0014-A0/ET-D720201-0014_layout/ET-D720201-0014.brd
+\i (03:46:06) zoom in 1 
+\i (03:46:06) setwindow pcb
+\i (03:46:06) zoom in 49.5569 45.8129
+\t (03:46:06) Grids are drawn 0.8000, 0.8000 apart for enhanced viewability.
+\i (03:46:06) trapsize 9294
+\i (03:46:09) setwindow form.vf_vis
+\i (03:46:09) FORM vf_vis 1 all_colorvisible YES 
+\i (03:46:11) setwindow pcb
+\i (03:46:11) zoom in 1 
+\i (03:46:11) setwindow pcb
+\i (03:46:11) zoom in 48.8134 22.3929
+\i (03:46:11) trapsize 4647
+\i (03:46:12) zoom in 1 
+\i (03:46:12) setwindow pcb
+\i (03:46:12) zoom in 47.2335 23.3223
+\t (03:46:12) Grids are drawn 0.2000, 0.2000 apart for enhanced viewability.
+\i (03:46:12) trapsize 2323
+\i (03:46:15) zoom in 1 
+\i (03:46:15) setwindow pcb
+\i (03:46:15) zoom in 51.5086 40.9803
+\i (03:46:15) trapsize 1162
+\i (03:46:16) assign color 
+\i (03:46:41) pick grid 44.0505 37.3558
+\t (03:46:41) last pick:  44.0500  37.3500
+\i (03:46:50) setwindow form.vf_vis
+\i (03:46:50) FORM vf_vis 4 all_colorvisible YES 
+\i (03:46:54) FORM vf_vis 4 all_colorvisible NO 
+\i (03:46:58) setwindow pcb
+\i (03:46:58) pick grid 49.5105 32.8251
+\t (03:46:58) last pick:  49.5000  32.8500
+\i (03:46:58) roam y 96 
+\i (03:46:58) roam y 96
+\i (03:46:58) roam y 96 
+\i (03:46:58) roam y 96
+\i (03:46:59) roam y 96 
+\i (03:46:59) roam y 96
+\i (03:47:00) roam y 96 
+\i (03:47:00) roam y 96
+\i (03:47:00) roam y 96 
+\i (03:47:00) roam y 96
+\i (03:47:00) roam y 96 
+\i (03:47:00) roam y 96
+\i (03:47:01) roam y 96 
+\i (03:47:01) roam y 96
+\i (03:47:01) roam y 96 
+\i (03:47:01) roam y 96
+\i (03:47:03) roam y -96 
+\i (03:47:03) roam y -96
+\i (03:47:03) roam y -96 
+\i (03:47:03) roam y -96
+\i (03:47:03) roam y -96 
+\i (03:47:03) roam y -96
+\i (03:47:05) roam y 96 
+\i (03:47:05) roam y 96
+\i (03:47:05) roam y 96 
+\i (03:47:05) roam y 96
+\i (03:47:20) roam y -96 
+\i (03:47:20) roam y -96
+\i (03:47:20) roam y -96 
+\i (03:47:20) roam y -96
+\i (03:47:20) roam y -96 
+\i (03:47:20) roam y -96
+\i (03:47:57) roam y 96 
+\i (03:47:57) roam y 96
+\i (03:47:57) roam y 96 
+\i (03:47:57) roam y 96
+\i (03:47:57) roam y 96 
+\i (03:47:57) roam y 96
+\i (03:47:57) roam y 96 
+\i (03:47:57) roam y 96
+\i (03:47:57) roam y 96 
+\i (03:47:57) roam y 96
+\i (08:02:21) pick grid 43.8181 13.0758
+\t (08:02:21) last pick:  43.8000  13.1000
+\i (08:02:22) zoom out 1 
+\i (08:02:22) setwindow pcb
+\i (08:02:22) zoom out 52.9956 14.3537
+\i (08:02:22) trapsize 2323
+\i (08:02:22) zoom out 1 
+\i (08:02:22) setwindow pcb
+\i (08:02:22) zoom out 54.3897 14.0749
+\t (08:02:22) Grids are drawn 0.8000, 0.8000 apart for enhanced viewability.
+\i (08:02:22) trapsize 4647
+\i (08:02:23) zoom out 1 
+\i (08:02:23) setwindow pcb
+\i (08:02:23) zoom out 68.2374 13.7961
+\i (08:02:23) trapsize 9294
+\i (08:02:26) roam y -96 
+\i (08:02:26) roam y -96
+\i (23:24:34) open 
+\i (23:24:52) fillin "D:\ÅûPROJECTÅû\USB3.0\LayoutReview\uPD720202\120510_ZX7_toshiba_DTV\120509_1445_FA0519_PCIe_USB3.0\PCIe_USB3.0.brd"
+\i (23:24:52) cd "D:\ÅûPROJECTÅû\USB3.0\LayoutReview\uPD720202\120510_ZX7_toshiba_DTV\120509_1445_FA0519_PCIe_USB3.0"
+\t (23:24:52) Opening existing design...
+\i (23:25:06) trapsize 90929
+\t (23:25:07)     Journal end - Thu May 10 10:24:54 2012

@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name "DE10nano-interface-rescue")(type "Legacy")(uri "/nfs/SSD1_Share/PCB Designs/Running/DE10nano interface/Rev .G/DE10nano interface-rescue.lib")(options "")(descr ""))
+  (lib (name "h2_USB3card-rescue")(type "Legacy")(uri "${KIPRJMOD}/h2_USB3card-rescue.lib")(options "")(descr ""))
+)

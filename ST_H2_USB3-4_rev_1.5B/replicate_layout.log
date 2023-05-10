@@ -1,0 +1,69 @@
+11-21 19:01:12 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 299:Plugin executed on: 'linux'
+11-21 19:01:12 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 300:Plugin executed with python version: '3.10.8 (main, Nov  1 2022, 14:18:21) [GCC 12.2.0]'
+11-21 19:01:12 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 301:KiCad build version: (6.0.9)
+11-21 19:01:12 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 302:Plugin version: 1.0.3
+11-21 19:01:12 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 303:Frame repr: <wx._core.Frame object at 0x7f18334339a0>
+11-21 19:01:12 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 322:Preparing replicator with J3 as a reference
+11-21 19:01:12 com_github_MitjaNemec_ReplicateLayout.replicate_layout 99:getting a list of all footprints on board
+11-21 19:01:12 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 350:source anchor footprint is 'J3'
+Located on: ['USB3_Port_1']
+With filenames: ['USB3_Port.kicad_sch']
+With sheet_id:['USB3_Port_1']
+11-21 19:01:12 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 357:Corresponding footprints are 
+[('J6', ['USB3_Port_4']), ('J5', ['USB3_Port_3']), ('J4', ['USB3_Port_2']), ('J3', ['USB3_Port_1'])]
+11-21 19:01:12 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 369:Showing dialog
+11-21 19:01:12 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 375:Toolbar position: wx.Point(3806, 91)
+11-21 19:01:12 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 381:Dialog position: wx.Point(3442, 91)
+11-21 19:01:12 com_github_MitjaNemec_ReplicateLayout.replicate_layout 320:constructing a list of sheets suitable for replication on level:'USB3_Port_1', file:'USB3_Port.kicad_sch'
+11-21 19:01:12 com_github_MitjaNemec_ReplicateLayout.replicate_layout 357:suitable sheets are:[['USB3_Port_2'], ['USB3_Port_3'], ['USB3_Port_4']]
+11-21 19:01:14 com_github_MitjaNemec_ReplicateLayout.replicate_layout 320:constructing a list of sheets suitable for replication on level:'USB3_Port_1', file:'USB3_Port.kicad_sch'
+11-21 19:01:14 com_github_MitjaNemec_ReplicateLayout.replicate_layout 357:suitable sheets are:[['USB3_Port_2'], ['USB3_Port_3'], ['USB3_Port_4']]
+11-21 19:01:14 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 143:Replicating layout
+11-21 19:01:14 com_github_MitjaNemec_ReplicateLayout.replicate_layout 135:Starting replication of sheets: [['USB3_Port_2'], ['USB3_Port_3'], ['USB3_Port_4']]
+on level: ['USB3_Port_1']
+with tracks=True, zone=True, text=True, containing=True, remove=False, locked=False, by_group=False
+11-21 19:01:14 root 239:updating GUI message: 'Preparing for replication'
+11-21 19:01:14 com_github_MitjaNemec_ReplicateLayout.replicate_layout 204:Getting the list of source footprints
+11-21 19:01:14 root 244:updating GUI with: 0
+11-21 19:01:14 com_github_MitjaNemec_ReplicateLayout.replicate_layout 219:Getting the list of all the remaining footprints
+11-21 19:01:14 com_github_MitjaNemec_ReplicateLayout.replicate_layout 224:Getting nets local to source footprints
+11-21 19:01:14 com_github_MitjaNemec_ReplicateLayout.replicate_layout 228:Getting source bounding box
+11-21 19:01:14 com_github_MitjaNemec_ReplicateLayout.replicate_layout 232:Getting source tracks
+11-21 19:01:14 com_github_MitjaNemec_ReplicateLayout.replicate_layout 242:Getting source zones
+11-21 19:01:14 root 244:updating GUI with: 62
+11-21 19:01:14 com_github_MitjaNemec_ReplicateLayout.replicate_layout 251:Getting source text items
+11-21 19:01:14 com_github_MitjaNemec_ReplicateLayout.replicate_layout 260:Getting source drawing items
+11-21 19:01:14 root 239:updating GUI message: 'Replicating footprints'
+11-21 19:01:14 com_github_MitjaNemec_ReplicateLayout.replicate_layout 653:Replicating footprints
+11-21 19:01:14 root 244:updating GUI with: 0
+11-21 19:01:14 com_github_MitjaNemec_ReplicateLayout.replicate_layout 659:Replicating footprints on sheet ['USB3_Port_2']
+11-21 19:01:14 com_github_MitjaNemec_ReplicateLayout.replicate_layout 659:Replicating footprints on sheet ['USB3_Port_3']
+11-21 19:01:14 com_github_MitjaNemec_ReplicateLayout.replicate_layout 659:Replicating footprints on sheet ['USB3_Port_4']
+11-21 19:01:14 root 239:updating GUI message: 'Replicating tracks'
+11-21 19:01:14 com_github_MitjaNemec_ReplicateLayout.replicate_layout 819:Replicating tracks
+11-21 19:01:14 root 244:updating GUI with: 0
+11-21 19:01:14 com_github_MitjaNemec_ReplicateLayout.replicate_layout 825:Replicating tracks on sheet ['USB3_Port_2']
+11-21 19:01:14 root 244:updating GUI with: 0
+11-21 19:01:14 root 244:updating GUI with: 0
+11-21 19:01:14 com_github_MitjaNemec_ReplicateLayout.replicate_layout 825:Replicating tracks on sheet ['USB3_Port_3']
+11-21 19:01:14 com_github_MitjaNemec_ReplicateLayout.replicate_layout 825:Replicating tracks on sheet ['USB3_Port_4']
+11-21 19:01:14 root 244:updating GUI with: 91
+11-21 19:01:14 root 239:updating GUI message: 'Replicating zones'
+11-21 19:01:14 com_github_MitjaNemec_ReplicateLayout.replicate_layout 877:Replicating zones
+11-21 19:01:14 com_github_MitjaNemec_ReplicateLayout.replicate_layout 884:Replicating zones on sheet ['USB3_Port_2']
+11-21 19:01:14 com_github_MitjaNemec_ReplicateLayout.replicate_layout 884:Replicating zones on sheet ['USB3_Port_3']
+11-21 19:01:14 com_github_MitjaNemec_ReplicateLayout.replicate_layout 884:Replicating zones on sheet ['USB3_Port_4']
+11-21 19:01:14 root 239:updating GUI message: 'Replicating text'
+11-21 19:01:14 root 244:updating GUI with: 0
+11-21 19:01:14 com_github_MitjaNemec_ReplicateLayout.replicate_layout 947:Replicating text
+11-21 19:01:14 root 244:updating GUI with: 0
+11-21 19:01:14 com_github_MitjaNemec_ReplicateLayout.replicate_layout 954:Replicating text on sheet ['USB3_Port_2']
+11-21 19:01:14 com_github_MitjaNemec_ReplicateLayout.replicate_layout 954:Replicating text on sheet ['USB3_Port_3']
+11-21 19:01:14 com_github_MitjaNemec_ReplicateLayout.replicate_layout 954:Replicating text on sheet ['USB3_Port_4']
+11-21 19:01:14 root 239:updating GUI message: 'Replicating drawings'
+11-21 19:01:14 com_github_MitjaNemec_ReplicateLayout.replicate_layout 987:Replicating drawings
+11-21 19:01:14 com_github_MitjaNemec_ReplicateLayout.replicate_layout 993:Replicating drawings on sheet ['USB3_Port_2']
+11-21 19:01:14 com_github_MitjaNemec_ReplicateLayout.replicate_layout 993:Replicating drawings on sheet ['USB3_Port_3']
+11-21 19:01:14 root 244:updating GUI with: 66
+11-21 19:01:14 com_github_MitjaNemec_ReplicateLayout.replicate_layout 993:Replicating drawings on sheet ['USB3_Port_4']
+11-21 19:01:14 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 167:Replication complete

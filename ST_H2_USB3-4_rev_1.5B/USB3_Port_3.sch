@@ -1,0 +1,288 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 3 5
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Text HLabel 6700 4300 2    50   Input ~ 0
+TVS_SSRX-
+Text HLabel 6700 4400 2    50   Input ~ 0
+TVS_SSRX+
+Text HLabel 6700 4500 2    50   BiDi ~ 0
+TVS_D-
+Text HLabel 6700 4600 2    50   BiDi ~ 0
+TVS_D-
+Text HLabel 6700 4700 2    50   Output ~ 0
+TVS_SSTX-
+Text HLabel 6700 4800 2    50   Output ~ 0
+TVS_SSTX+
+Wire Wire Line
+	6700 2750 6700 2600
+Wire Wire Line
+	6700 2950 6700 3150
+Connection ~ 6700 2600
+Connection ~ 4900 4400
+Wire Wire Line
+	3450 4400 4900 4400
+Connection ~ 4950 4300
+Wire Wire Line
+	3450 4300 4950 4300
+Connection ~ 4950 4800
+Wire Wire Line
+	3650 4800 4950 4800
+Wire Wire Line
+	3650 4700 3650 4800
+Wire Wire Line
+	3450 4700 3650 4700
+Connection ~ 4900 4700
+Wire Wire Line
+	3750 4700 4900 4700
+Wire Wire Line
+	3750 4600 3750 4700
+Wire Wire Line
+	3450 4600 3750 4600
+Connection ~ 4850 4600
+Wire Wire Line
+	3950 4600 4850 4600
+Wire Wire Line
+	3950 4000 3950 4600
+Wire Wire Line
+	3450 4000 3950 4000
+Connection ~ 4850 4500
+Wire Wire Line
+	3850 4500 4850 4500
+Wire Wire Line
+	3850 4100 3850 4500
+Wire Wire Line
+	3450 4100 3850 4100
+Connection ~ 2950 5000
+Wire Wire Line
+	2850 5000 2950 5000
+Connection ~ 2850 5000
+Wire Wire Line
+	2750 5000 2850 5000
+Wire Wire Line
+	5750 3000 5750 3150
+Wire Wire Line
+	5750 3150 4650 3150
+Connection ~ 5750 3150
+Wire Wire Line
+	5750 3250 5750 3150
+Wire Wire Line
+	4650 2900 4650 3150
+Wire Wire Line
+	6700 3150 5750 3150
+Wire Wire Line
+	6150 2600 6700 2600
+Text Notes 4750 3750 0    50   ~ 0
+CONNECT STRAIGHT THROUGH DEAD PINS FOR ROUTING
+Wire Wire Line
+	6250 4300 6200 4300
+Connection ~ 6250 4300
+Wire Wire Line
+	4950 4300 5100 4300
+Wire Wire Line
+	4950 3900 4950 4300
+Wire Wire Line
+	6250 3900 4950 3900
+Wire Wire Line
+	6250 4300 6250 3900
+Wire Wire Line
+	6300 4400 6700 4400
+Connection ~ 6300 4400
+Wire Wire Line
+	4900 4400 5100 4400
+Wire Wire Line
+	4900 3850 4900 4400
+Wire Wire Line
+	6300 3850 4900 3850
+Wire Wire Line
+	6300 4400 6300 3850
+Wire Wire Line
+	6350 4500 6200 4500
+Connection ~ 6350 4500
+Wire Wire Line
+	4850 4500 5100 4500
+Wire Wire Line
+	4850 3800 4850 4500
+Wire Wire Line
+	6350 3800 4850 3800
+Wire Wire Line
+	6350 4500 6350 3800
+Wire Wire Line
+	6700 4500 6350 4500
+Wire Wire Line
+	6350 4600 6700 4600
+Connection ~ 6350 4600
+Wire Wire Line
+	4850 4600 5100 4600
+Wire Wire Line
+	4850 5550 4850 4600
+Wire Wire Line
+	6350 5550 4850 5550
+Wire Wire Line
+	6350 4600 6350 5550
+Wire Wire Line
+	6300 4700 6200 4700
+Connection ~ 6300 4700
+Wire Wire Line
+	4900 4700 5100 4700
+Wire Wire Line
+	4900 5500 4900 4700
+Wire Wire Line
+	6300 5500 4900 5500
+Wire Wire Line
+	6300 4700 6300 5500
+Wire Wire Line
+	6250 4800 6700 4800
+Connection ~ 6250 4800
+Wire Wire Line
+	4950 4800 5100 4800
+Wire Wire Line
+	4950 5450 4950 4800
+Wire Wire Line
+	6250 5450 4950 5450
+Wire Wire Line
+	6250 4800 6250 5450
+Wire Wire Line
+	6200 4800 6250 4800
+Wire Wire Line
+	6700 4700 6300 4700
+Wire Wire Line
+	6200 4600 6350 4600
+Wire Wire Line
+	6200 4400 6300 4400
+Wire Wire Line
+	6700 4300 6250 4300
+Text HLabel 6150 2800 2    50   Output ~ 0
+OVERCUR#
+Wire Wire Line
+	4650 2600 5350 2600
+Connection ~ 4650 2600
+Text HLabel 5350 2800 0    50   Input ~ 0
+PWRON#
+Wire Wire Line
+	4550 2600 4650 2600
+Wire Wire Line
+	4650 2700 4650 2600
+$Comp
+L Connector:USB3_A J5
+U 1 1 61E76CD0
+P 2950 4200
+F 0 "J5" H 3007 4917 50  0000 C CNN
+F 1 "USB3_A_C1P1" H 3007 4826 50  0000 C CNN
+F 2 "Connector_USB:USB3_A_Molex_48393-001" H 3100 4300 50  0001 C CNN
+F 3 "~" H 3100 4300 50  0001 C CNN
+	1    2950 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR025
+U 1 1 61E76CEB
+P 2950 5050
+F 0 "#PWR025" H 2950 4800 50  0001 C CNN
+F 1 "GND" H 2955 4877 50  0000 C CNN
+F 2 "" H 2950 5050 50  0001 C CNN
+F 3 "" H 2950 5050 50  0001 C CNN
+	1    2950 5050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2950 5050 2950 5000
+Wire Wire Line
+	2750 4900 2750 5000
+Wire Wire Line
+	2950 5000 2950 4900
+Wire Wire Line
+	2850 4900 2850 5000
+$Comp
+L power:GND #PWR026
+U 1 1 61E76D00
+P 5700 5200
+F 0 "#PWR026" H 5700 4950 50  0001 C CNN
+F 1 "GND" H 5705 5027 50  0000 C CNN
+F 2 "" H 5700 5200 50  0001 C CNN
+F 3 "" H 5700 5200 50  0001 C CNN
+	1    5700 5200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5700 5200 5700 5150
+Connection ~ 5700 5150
+Wire Wire Line
+	5600 5150 5700 5150
+$Comp
+L power:GND #PWR027
+U 1 1 61E76CDC
+P 5750 3250
+F 0 "#PWR027" H 5750 3000 50  0001 C CNN
+F 1 "GND" H 5755 3077 50  0000 C CNN
+F 2 "" H 5750 3250 50  0001 C CNN
+F 3 "" H 5750 3250 50  0001 C CNN
+	1    5750 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Power_Management:AP22804AW5 U7
+U 1 1 61E76CD6
+P 5750 2700
+F 0 "U7" H 5750 3067 50  0000 C CNN
+F 1 "AP22802B" H 5750 2976 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-5" H 5750 2300 50  0001 C CNN
+F 3 "https://www.diodes.com/assets/Datasheets/AP22804_14.pdf" H 5750 2750 50  0001 C CNN
+	1    5750 2700
+	1    0    0    -1  
+$EndComp
+Text GLabel 4550 2600 0    50   Input ~ 0
+5V_REG
+$Comp
+L ST_Extra:TPD6E05U06 U8
+U 1 1 6140F8E6
+P 6200 5350
+F 0 "U8" H 5650 6665 50  0000 C CNN
+F 1 "TPD6E05U06" H 5650 6574 50  0000 C CNN
+F 2 "ST:USON-14_2.5x1.0_P0.5mm" H 5750 6550 50  0001 C CNN
+F 3 "" H 5750 6550 50  0001 C CNN
+	1    6200 5350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C11
+U 1 1 613C0708
+P 4650 2800
+F 0 "C11" H 4742 2846 50  0000 L CNN
+F 1 "0.1uf" H 4742 2755 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0201_0603Metric" H 4650 2800 50  0001 C CNN
+F 3 "~" H 4650 2800 50  0001 C CNN
+	1    4650 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C14
+U 1 1 613D5CEC
+P 6700 2850
+F 0 "C14" H 6900 2900 50  0000 C CNN
+F 1 "0.1uf" H 6900 2800 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0201_0603Metric" H 6700 2850 50  0001 C CNN
+F 3 "~" H 6700 2850 50  0001 C CNN
+	1    6700 2850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6700 2600 6700 2050
+Wire Wire Line
+	6700 2050 3900 2050
+Wire Wire Line
+	3900 2050 3900 3800
+Wire Wire Line
+	3900 3800 3450 3800
+$EndSCHEMATC

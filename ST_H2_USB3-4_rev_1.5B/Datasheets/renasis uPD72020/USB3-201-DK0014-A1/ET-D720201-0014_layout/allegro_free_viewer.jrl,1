@@ -1,0 +1,113 @@
+\t (00:00:32) allegro_free_viewer 16.5 S006 (v16-5-13S) i86
+\t (00:00:32)     Journal start - Tue Feb 14 20:39:09 2012
+\t (00:00:32)         Host=DHMPC045 User=j-yamaya Pid=268 CPUs=2
+\t (00:00:32) 
+\d (00:00:32) Database opened: D:/ÅûPROJECTÅû/USB3.0/ÅyuPD720201_202Åz/ReferenceBoard/720201_Add-in/USB3-201-DK0014-A0/ET-D720201-0014_layout/ET-D720201-0014.brd
+\i (00:00:35) setwindow form.vf_vis
+\i (00:00:35) FORM vf_vis 1 all_colorvisible YES 
+\i (00:00:36) setwindow pcb
+\i (00:00:36) zoom in 1 
+\i (00:00:36) setwindow pcb
+\i (00:00:36) zoom in 63.3202 67.7584
+\t (00:00:36) Grids are drawn 0.8000, 0.8000 apart for enhanced viewability.
+\i (00:00:36) trapsize 9271
+\i (00:00:37) zoom in 1 
+\i (00:00:37) setwindow pcb
+\i (00:00:37) zoom in 66.2869 68.5001
+\i (00:00:37) trapsize 4635
+\i (00:00:38) zoom in 1 
+\i (00:00:38) setwindow pcb
+\i (00:00:38) zoom in 58.6849 65.2553
+\t (00:00:38) Grids are drawn 0.2000, 0.2000 apart for enhanced viewability.
+\i (00:00:38) trapsize 2318
+\i (00:00:40) roam x -96 
+\i (00:00:40) roam x -96
+\i (00:00:40) roam x -96 
+\i (00:00:40) roam x -96
+\i (00:00:40) roam x -96 
+\i (00:00:40) roam x -96
+\i (00:00:40) roam x -96 
+\i (00:00:40) roam x -96
+\i (00:00:41) roam x -96 
+\i (00:00:41) roam x -96
+\i (00:00:41) roam y 96 
+\i (00:00:41) roam y 96
+\i (00:00:42) roam y 96 
+\i (00:00:42) roam y 96
+\i (00:00:42) roam x -96 
+\i (00:00:42) roam x -96
+\i (00:00:50) assign color 
+\i (00:00:53) setwindow form.mini
+\i (00:00:53) FORM mini color25 1 
+\i (00:00:54) setwindow pcb
+\i (00:00:54) pick grid 51.9638 69.5664
+\t (00:00:54) last pick:  51.9500  69.5500
+\t (00:00:54) Net "Gnd" assigned color.
+\i (00:00:56) setwindow form.mini
+\i (00:00:56) FORM mini color10 1 
+\i (00:00:58) setwindow pcb
+\i (00:00:58) roam x -96 
+\i (00:00:58) roam x -96
+\i (00:00:59) roam x -96 
+\i (00:00:59) roam x -96
+\i (00:00:59) roam x -96 
+\i (00:00:59) roam x -96
+\i (00:00:59) roam x -96 
+\i (00:00:59) roam x -96
+\i (00:01:00) roam y -96 
+\i (00:01:00) roam y -96
+\i (00:01:00) roam y -96 
+\i (00:01:00) roam y -96
+\i (00:01:01) roam y -96 
+\i (00:01:01) roam y -96
+\i (00:01:05) pick grid 22.9464 73.4137
+\t (00:01:05) last pick:  22.9500  73.4000
+\t (00:01:05) Net "N23162117" assigned color.
+\i (00:01:06) pick grid 22.9464 73.7846
+\t (00:01:06) last pick:  22.9500  73.8000
+\t (00:01:06) Net "N23162115" assigned color.
+\i (00:01:07) pick grid 23.2709 71.2351
+\t (00:01:07) last pick:  23.2500  71.2500
+\t (00:01:07) Net "N23162093" assigned color.
+\i (00:01:07) pick grid 23.3636 70.9570
+\t (00:01:07) last pick:  23.3500  70.9500
+\t (00:01:07) Net "N23162095" assigned color.
+\i (00:01:10) pick grid 31.7072 73.3674
+\t (00:01:10) last pick:  31.7000  73.3500
+\t (00:01:10) Net "N23162089" assigned color.
+\i (00:01:10) pick grid 31.7072 73.6918
+\t (00:01:10) last pick:  31.7000  73.7000
+\t (00:01:10) Net "N23162113" assigned color.
+\i (00:01:13) setwindow form.vf_vis
+\i (00:01:13) FORM vf_vis 1 etch_colorvisible color 34 
+\i (00:01:16) FORM vf_vis 1 via_colorvisible color 34 
+\i (00:01:17) FORM vf_vis 1 pin_colorvisible color 34 
+\i (00:01:20) setwindow pcb
+\i (00:01:20) roam y 96 
+\i (00:01:20) roam y 96
+\i (00:01:20) roam y 96 
+\i (00:01:20) roam y 96
+\i (00:01:22) pick grid 26.6083 56.4020
+\t (00:01:22) last pick:  26.6000  56.4000
+\t (00:01:22) Net "N23161972" assigned color.
+\i (00:01:22) pick grid 26.5620 55.9848
+\t (00:01:22) last pick:  26.5500  56.0000
+\t (00:01:22) Net "N23161955" assigned color.
+\i (00:01:23) pick grid 23.4099 56.3092
+\t (00:01:23) last pick:  23.4000  56.3000
+\t (00:01:23) Net "N23161974" assigned color.
+\i (00:01:24) pick grid 23.3636 55.9848
+\t (00:01:24) last pick:  23.3500  56.0000
+\t (00:01:24) Net "N23161976" assigned color.
+\i (00:01:26) pick grid 23.9662 53.3426
+\t (00:01:26) last pick:  23.9500  53.3500
+\t (00:01:26) Net "N23161961" assigned color.
+\i (00:01:26) pick grid 23.9662 53.8061
+\t (00:01:26) last pick:  23.9500  53.8000
+\t (00:01:26) Net "N23161959" assigned color.
+\i (00:01:37) roam x 96 
+\i (00:01:37) roam x 96
+\i (00:01:38) roam x 96 
+\i (00:01:38) roam x 96
+\i (00:01:39) roam x -96 
+\i (
